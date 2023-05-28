@@ -23,7 +23,7 @@
   </div>
   <div class="ui-bottom-dialog" v-else>
     <div class="ui-bottom-dialog__header">
-      <p v-if="title" class="title">Заголовок</p>
+      <p v-if="title" class="title">{{ title }}</p>
       <ui-button
         color="red"
         icon="close"
